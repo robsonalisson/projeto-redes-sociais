@@ -10,9 +10,9 @@ html, body{
 }
 body{
 
-    background: url(../imagens/fundo-madeira.jpg) no-repeat top center; /*adicionar imagem nao repetir e fixar no topo e centro*/
+    background: url(../imagens/fundo-madeira.jpg) no-repeat top center; 
     background-size: cover;
-    background-attachment: fixed; /*fixar a imagem do fundo*/
+    background-attachment: fixed;
 }
 main{
     position: relative;
@@ -44,11 +44,11 @@ section#redes-sociais img{
     width: 50px;
     border-radius: 50%;
     box-shadow: 2px 2px 5px #0000005d;
-    box-sizing: border-box;/*para a borda fazer parte da imagem*/
+    box-sizing: border-box;
 }
 section#redes-sociais img:hover{
     border: 1px solid white;
-    transform: translate(-3px,-3px); /*para ele arrastar pro lado quando passar o mouse*/
+    transform: translate(-3px,-3px); 
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.719);
-    transition: transform -3; /* a duração em segundos que o botao ou qualquer elemento vai fazer */
+    transition: transform -3;
 }

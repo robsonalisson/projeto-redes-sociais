@@ -4,7 +4,7 @@
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
- ::-webkit-scrollbar { /*serve para tirar a rolagem da página*/
+ ::-webkit-scrollbar { 
     width: 0;
     height: 0;
 }
